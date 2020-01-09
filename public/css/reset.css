@@ -1,0 +1,376 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: #ededed !important;
+    color: #666;
+    font-size: 14px;
+}
+
+a {
+    color: #666;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.hand:hover {
+    cursor: pointer;
+}
+
+.handRed:hover {
+    cursor: pointer;
+    color: #FE8C00 !important;
+}
+
+.overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflowTwo {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.overflowOne {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.listAll {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listAllStart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centerY {
+    display: flex;
+    justify-content: center;
+}
+
+.listOne {
+    flex: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.allCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginY {
+    margin: 15px 0;
+}
+
+.paddingY {
+    padding: 15px 0;
+}
+
+.wrap {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.titleWord {
+    font-size: 20px;
+}
+
+.small {
+    color: #999;
+    font-size: 15px;
+}
+
+.smaller {
+    color: #999;
+    font-size: 11px;
+}
+
+.red {
+    color: red;
+}
+
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.noWrap {
+    white-space: nowrap;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.angle {
+    border-radius: 5px;
+}
+
+.border {
+    border-bottom: 1px solid #ccc;
+}
+
+.centerX {
+    display: flex;
+    align-items: center;
+}
+
+.noneData {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.tag-red {
+    color: red;
+    border: 2rpx solid red;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    padding: 0 5px;
+}
+
+.allBg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: white;
+}
+
+.blueButton {
+    width: 300px;
+    background: #007aff;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.productName {
+    line-height: 1.2;
+    font-size: 16px;
+    color: #424242;
+    margin: 0 auto;
+    padding: 0 14px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.subTitle {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 12px;
+    color: #d0d0d0;
+    padding: 10px;
+}
+
+.salePrice {
+    text-align: center;
+    line-height: 30px;
+    color: #d44d44;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+}
+
+.vaptcha-init-main {
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+}
+
+.loading .pic {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.notAllow {
+    cursor: not-allowed !important;
+}
+
+.myOrder {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    border-color: rgba(0, 0, 0, 0.14);
+    box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+}

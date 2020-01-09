@@ -1,0 +1,12 @@
+.my__alter__css {
+    .ivu-carousel-dots button.radius {
+        width: 20px;
+        height: 20px;
+    }
+    .ivu-carousel-dots .ivu-carousel-active>button.radius {
+        width: 20px;
+    }
+    .ivu-carousel-dots-inside {
+        bottom: 20px;
+    }
+}
