@@ -56,7 +56,7 @@ export default {
       ],
       scrollLock: false,
       nowPath: null,
-      user:null
+      user:null,
     };
   },
   components: {
